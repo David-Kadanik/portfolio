@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url('/Tales-of-Mandalorian-main/res/img/cantina.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+#fight{
+    position: absolute;
+    width: 550px;
+    height: 950px;
+    left: 60%;
+    top: 15%;
+}
+#shop{
+    position: absolute;
+    width: 200px;
+    height: 550px;   
+    left: 30%;
+    top: 10%;
+}
+button{
+ font-size: 25px;   
+ background: none;
+ border: none;
+}
+#play{
+    float: right;
+    
+}

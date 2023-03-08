@@ -1,0 +1,15 @@
+*{
+     box-sizing: border-box;
+}
+body{
+    background-image: url('/Tales-of-Mandalorian-main/res/img/intro.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+img{
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+    margin-left: 45%;
+    margin-top: 15%;
+}

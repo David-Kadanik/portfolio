@@ -1,0 +1,35 @@
+#counter {
+  text-align: center;
+}
+#cookie {
+  width: 40%;
+  display: block;
+  height: 50%;
+  margin: 0 auto;
+}
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap");
+* {
+  font-family: "Bungee Spice", cursive;
+  text-size-adjust: 50px;
+  font-size: 30px;
+  background: rgb(54, 62, 177);
+  animation: mymove 5s transform ease;
+}
+@keyframes mymove {
+  50% {
+    background-color: rgb(127, 34, 170);
+  }
+}
+button {
+  border: none;
+  display: table;
+  margin: 0 auto;
+  transition: 2s ease;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  background: rgba(0, 0, 0, 0.5);
+}
+#cookie:hover,
+#button:hover {
+  transform: scale(1.1);
+}
